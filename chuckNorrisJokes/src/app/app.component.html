@@ -1,7 +1,6 @@
-<div style="text-align:center">
+<div style="text-align:center; background-color: gray; cursor: pointer;" (click)="updateJoke()">
   <h1>
     <ng-container *ngIf="currentJoke">
       <p> {{ currentJoke.value }} </p>
-      <input type="button" (click)="updateJoke()" value="Get new Joke!">
     </ng-container>
   </h1>
