@@ -6,3 +6,5 @@
     * ng new chuckNorrisJokes --version v7.1.0
 * Update angular CLI
     * ng update @angular/cli
+* Adding PWA
+    * ng add @angular/pwa    
